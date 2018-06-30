@@ -16,6 +16,8 @@ class App extends Component {
       storageBucket: 'weather-fashion.appspot.com',
       messagingSenderId: '284046396245'
     };
+
+    
     firebase.initializeApp(config);
   }
 
